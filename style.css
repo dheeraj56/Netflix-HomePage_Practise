@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+.main {
+  background-image: url(assets/images/bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1200px, 100uw);
+  height: 70vh;
+  position: relative;
+}
+
+.main .box {
+  height: 70vh;
+  position: absolute;
+  top: 0;
+  opacity: 0.69;
+  background-color: black;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 60vw;
+  margin: auto;
+  height: 65px;
+}
+
+nav img {
+  position: relative;
+  z-index: 10;
+  width: 114px;
+}
+
+nav button {
+  position: relative;
+  z-index: 10;
+}
+
+.hero {
+  height: calc(100% - 65px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: white;
+  flex-direction: column;
+  font-family: "Martel Sans", sans-serif;
+  gap: 15px;
+  padding: 0px 30px;
+}
+
+.hero> :nth-child(1) {
+  font-weight: 900;
+  font-size: 48px;
+  text-align: center;
+
+}
+
+.hero> :nth-child(2) {
+  font-weight: 400;
+  font-size: 23px;
+  text-align: center;
+}
+
+.hero> :nth-child(3) {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}
+
+.seperation {
+  background-color: rgb(57, 56, 56);
+  height: 7px;
+}
+
+.btn {
+  padding: 3px 8px;
+  font-weight: bold;
+  background-color: white;
+}
+
+.btn-red {
+  background-color: red;
+  color: white;
+  padding: 3px 24px;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+.hero-buttons input {
+  padding: 7px 51px;
+  border-radius: 4px;
+  font-size: 12px;
+  background-color: rgba(23, 23, 23, 0.2);
+  border: 1px solid rgba(237, 231, 231, 0.2);
+}
+
+.btn-red-sn {
+  background-color: red;
+  border-radius: 4px;
+  color: white;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.first{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: auto;
+  max-width: 70vw;
+  justify-self: center;
+  align-items: center;
+}
+.secImg{
+  position: relative;
+}
+.secImg img{
+  width: 555px;
+  position: relative;
+  z-index: 10;
+}
+.secImg video{
+  position: absolute;
+  top: 88px;
+  right: 80px;
+  width: 402px;
+}
+.first div{
+  display: flex;
+  flex-direction: column;
+}
+.first>div :first-child{
+  font-size: 48px;
+  font-weight: bold;
+}
+.first>div :nth-child(2){
+  font-size: 24px;
+}
